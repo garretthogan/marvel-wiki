@@ -25,7 +25,7 @@ class HeroGridContainer extends Component {
   }
   render() {
     return (
-      <Flex wrap pt={60} align='center'>{
+      <Flex wrap pt={60} align="center">{
         this.state.characters && this.state.characters.map((c, i) => (<Box key={i} p={2} w={1/3}><HeroCard className="hero-card" onClick={this._onSelectHero(i)} {...c} /></Box>))
       }</Flex>      
     );
