@@ -18,14 +18,10 @@ a {
 }
 
 .hero-card {
-  display: inline-block;
-  margin: 12px;
-  min-width: 380px;
+  height: 160px;
 }
 
 .hero-overlay-card {
-  position: absolute;
-  top: 0%;
   left: calc(50% - 260px);
   margin: 10vh;
   width: 380px;
