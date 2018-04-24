@@ -1,7 +1,7 @@
 import 'isomorphic-fetch';
 require('es6-promise').polyfill();
 
-const PUBLIC_KEY = 'bef3168978fac4d4fe49449ac04d223c';
+const PUBLIC_KEY = process.env.PUBLIC_KEY || require('../.env.json').PUBLIC_KEY;
 const baseURL = 'https://gateway.marvel.com';
 
 export function getCharacters() {
