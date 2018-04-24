@@ -1,0 +1,32 @@
+body {
+  background-color: #518cca;
+  color: #000000;
+}
+
+a {
+  color: #e23636;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.hero-cards-container {
+  padding-top: 60px;
+}
+
+.hero-card {
+  display: inline-block;
+  margin: 12px;
+  min-width: 380px;
+}
+
+.hero-overlay-card {
+  position: absolute;
+  top: 0%;
+  left: calc(50% - 260px);
+  margin: 10vh;
+  width: 380px;
+}
