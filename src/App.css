@@ -17,15 +17,29 @@ a {
   height: 160px;
 }
 
-.hero-overlay-card {
-  left: calc(50% - 260px);
-  margin: 10vh;
-  width: 380px;
+@media (max-width: 480px) {
+  .hero-overlay-card {
+    left: calc(50% - 260px);
+    margin: 10vh;
+    width: 95%;
+  }
+  .hero-img {
+    width: 100%;
+    height: 40%;
+  }
 }
 
-.hero-img {
-  width: 340px;
-  height: 260px;
+@media (min-width: 1080px) {
+  .hero-overlay-card {
+    left: calc(50% - 260px);
+    margin: 10vh;
+    width: 380px;
+  }
+  
+  .hero-img {
+    width: 340px;
+    height: 260px;
+  }
 }
 
 .hero-name {
