@@ -22,3 +22,12 @@ a {
   margin: 10vh;
   width: 380px;
 }
+
+.hero-img {
+  width: 340px;
+  height: 260px;
+}
+
+.hero-name {
+  padding-top: 4px
+}
