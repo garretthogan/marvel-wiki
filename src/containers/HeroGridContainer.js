@@ -14,7 +14,7 @@ class HeroGridContainer extends Component {
     const {characters, loading} = this.props;
     return (
       <Flex wrap pt={60} align="center">{
-        loading ? <Loading /> : characters.map((c, i) => (<Box key={i} p={2} w={1/4}><HeroCard className="hero-card" onClick={this._onSelectHero(i)} {...c} /></Box>))
+        loading ? <Loading /> : characters.map((c, i) => (<Box key={i} p={2} w={[1, 1/2, 1/3, 1/4]}><HeroCard className="hero-card" onClick={this._onSelectHero(i)} {...c} /></Box>))
       }</Flex>
     );
   }
